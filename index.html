@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            width: 60%;
+            text-align: center;
+            margin: auto;
+            border: 2px solid black;
+        }
+
+        .titulo {
+            margin-top: 3em;
+            /* line-height: 0.8em; */
+        }
+
+        #foto {
+            border-radius: 50%;
+            rotate: 90deg;
+        }
+
+        button {
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .contenedor {
+
+
+            margin: 2em;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+
+        .tec {
+
+            width: 40%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <main class="titulo">
+            <h1>Miguel Angel Lorenzo Hermoso</h1>
+            <h3>Developer web</h3>
+        </main>
+        <img id="foto" src="img/prueba2.png" alt="fotoMiguel"> <br>
+        <p> ¿Mi Curriculum?
+            <a href="img/Miguel Ángel Lorenzo Hermoso.docx.pdf" target="_blank">
+                <button type="downlad">Descargalo</button>
+            </a>
+        </p>
+
+        <section>
+            <h2>Acerca de mi</h2>
+            <h3> Aficiones </h3>
+        </section>
+        <footer>
+
+            <h3 class="tecnologia">Tecnologias aprendidas </h3>
+            <main class="contenedor">
+                <div class="tecno"> <img src="img/HTML5-2090788840.jpg" alt="html5" class="tec"> </div>
+                <div class="tecno"> <img src="img/css3.jpg" alt="css3" class="tec"> </div>
+
+                <div class="tecno"> <img src="img/java-removebg-preview.png" alt="javascript" class="tec"></div>
+                <div class="tecno"><img src="img/wordpress.jpg" alt="wordpress" class="tec"></div>
+            </main>
+            <main class="redes">
+                <div class="red"></div>
+                <div class="red"></div>
+                <div class="red"></div>
+            </main>
+        </footer>
+    </header>
+</body>
+
+</html>
