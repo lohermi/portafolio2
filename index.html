@@ -7,16 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            font-family: sans-serif;
+        }
+
         header {
+            background-image: url(img/backgraund.jpg);
             width: 60%;
             text-align: center;
             margin: auto;
+
             border: 2px solid black;
+        }
+
+        p {
+            font-size: 1.8em;
         }
 
         .titulo {
             margin-top: 3em;
             /* line-height: 0.8em; */
+        }
+
+        section {
+            width: 90%;
+            margin: auto;
+
+
+        }
+
+        section h2 {
+            font-weight: bold;
         }
 
         #foto {
@@ -43,6 +64,10 @@
             width: 40%;
 
         }
+
+        main {
+            margin-top: -20px;
+        }
     </style>
 </head>
 
@@ -50,7 +75,8 @@
     <header>
         <main class="titulo">
             <h1>Miguel Angel Lorenzo Hermoso</h1>
-            <h3>Developer web</h3>
+            <h2>Developer web</h2>
+            <p id="pais">San Sebastian de los Reyes, Madrid, España</p>
         </main>
         <img id="foto" src="img/prueba2.png" alt="fotoMiguel"> <br>
         <p> ¿Mi Curriculum?
@@ -61,18 +87,32 @@
 
         <section>
             <h2>Acerca de mi</h2>
-            <h3> Aficiones </h3>
-            <p id="aficion"></p>
+            <p>
+                Durante más de 30 años me he dedicado a la atención al cliente dentro del sector de la alimentación,
+                trabajando para
+                grandes empresas.
+                En todos estos años le he dado la importancia que se merece, resolviendo los problemas con los que
+                nos llegaban. He
+                aprendido a escuchar , resolver y satisfacer las necesidades de nuestros clientes .
+                Soy una persona que se adapta bien a los cambios e intento sacar lo mejor de mi cada vez,
+                A lo largo de mi vida laboral me he seguido formando de manera autodidacta, porque soy curioso por
+                naturaleza, me
+                gusta mejorar mis conocimientos.
+            </p>
+            <h2> Aficiones </h2>
+            <p id="aficion">Móntar en bicicleta ,Caminar, Cocinar,leer</p>
         </section>
         <footer>
 
             <h3 class="tecnologia">Tecnologias aprendidas </h3>
-            <main class="contenedor">
-                <div class="tecno"> <img src="img/HTML5-2090788840.jpg" alt="html5" class="tec"> </div>
-                <div class="tecno"> <img src="img/css3.jpg" alt="css3" class="tec"> </div>
+            <marquee behavior="" direction="rotate">
+                <main class="contenedor">
+                    <div class="tecno"> <img src="img/HTML5-2090788840.jpg" alt="html5" class="tec"> </div>
+                    <div class="tecno"> <img src="img/css3.jpg" alt="css3" class="tec"> </div>
 
-                <div class="tecno"> <img src="img/java-removebg-preview.png" alt="javascript" class="tec"></div>
-                <div class="tecno"><img src="img/wordpress.jpg" alt="wordpress" class="tec"></div>
+                    <div class="tecno"> <img src="img/java-removebg-preview.png" alt="javascript" class="tec"></div>
+                    <div class="tecno"><img src="img/wordpress.jpg" alt="wordpress" class="tec"></div>
+            </marquee>
             </main>
             <main class="redes">
                 <div class="red"></div>
